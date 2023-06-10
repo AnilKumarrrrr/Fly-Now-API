@@ -1,0 +1,72 @@
+body {
+  background-image: url('wallpaper.jpg');
+  background-size: 100% auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#searchForm {
+  text-align: center;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+
+label[for="sourceInput"],
+label[for="destinationInput"],
+label[for="dateInput"] {
+  margin-right: 20px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 250px;
+}
+
+#searchButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #45a049;
+}
+
+#flightResults {
+  margin: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
