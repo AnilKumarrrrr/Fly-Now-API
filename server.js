@@ -14,8 +14,8 @@ app.post('/flight-prices', async (req, res) => {
     const options = {
       method: 'GET',
       headers: {
-        'X-RapidAPI-Key': 'f2ff72c389msh0ef4a6a0210672cp1cababjsnad63de081a0e',
-        'X-RapidAPI-Host': 'skyscanner50.p.rapidapi.com'
+        'X-RapidAPI-Key': 'Please add X-RapidAPI-Key here',
+        'X-RapidAPI-Host': 'Please add X-RapidAPI-Host'
       },
     };
 
